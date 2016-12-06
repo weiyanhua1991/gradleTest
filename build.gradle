@@ -55,3 +55,4 @@ task copyJars(type: Copy) {
   into 'lib' // 目标位置
 }
 
+war.archiveName 'abc.war'
